@@ -5,9 +5,9 @@ import { AboutGPT5, Blog, Footer, Features, Header, Possibility } from './contai
 const App = () => {
     return (
         <div className='App'>
-            <div className='bg_gradient_clr'>
-                <Header />
+            <div className='bg__gradient-clr'>
                 <Navbar />
+                <Header />
             </div>
             <Brand />
             <AboutGPT5 />

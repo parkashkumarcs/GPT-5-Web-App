@@ -16,7 +16,7 @@ a {
 /* The following gradient color code generated from angrytools platform where we can generate unique
 color as we want */
 
-.bg_gradient_clr {
+.bg__gradient-clr {
   /* ff 3.6+ */
   background: -moz-radial-gradient(
     circle at 4% 26%,
@@ -53,18 +53,18 @@ color as we want */
   );
 }
 
-.txt_gradient-clr {
+.txt__gradient-clr {
   background: var(--grt-text);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.sect_margin {
+.sect__margin {
   margin: 4rem 6rem;
 }
 
-.sec_padding {
+.sec__padding {
   padding: 4rem 6rem;
 }
 .scale-up-center {
@@ -95,19 +95,19 @@ color as we want */
 }
 
 @media screen and (max-width: 700px) {
-    .sec_padding{
+    .sec__padding{
         padding: 4rem;
     }
-    .sect_margin{
+    .sect__margin{
         margin: 4rem;
     }
 }
 
 @media screen and (max-width: 550px) {
-    .sec_padding{
+    .sec__padding{
         padding: 4rem 2rem;
     }
-    .sect_margin{
+    .sect__margin{
         margin: 4rem 2rem;
     }
 }
