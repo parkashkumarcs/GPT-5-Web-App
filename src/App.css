@@ -1,40 +1,113 @@
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    scroll-behavior: smooth;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
 }
-body{
-    background: var(--bg-color);
+body {
+  background: var(--bg-color);
+  color: var(--text-clr);
 }
-a{
-    color: unset;
-    text-decoration: none;
+a {
+  color: unset;
+  text-decoration: none;
 }
 
 /* The following gradient color code generated from angrytools platform where we can generate unique
 color as we want */
 
-.bg__gradient_clr{
-    /* ff 3.6+ */
-    background: -moz-radial-gradient(circle at 4% 26%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+.bg_gradient_clr {
+  /* ff 3.6+ */
+  background: -moz-radial-gradient(
+    circle at 4% 26%,
+    rgba(0, 40, 83, 1) 0%,
+    rgba(4, 12, 24, 1) 100%
+  );
 
-    /* safari 5.1+,chrome 10+ */
-    background: -webkit-radial-gradient(circle at 4% 26%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-radial-gradient(
+    circle at 4% 26%,
+    rgba(0, 40, 83, 1) 0%,
+    rgba(4, 12, 24, 1) 100%
+  );
 
-    /* opera 11.10+ */
-    background: -o-radial-gradient(circle at 4% 26%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+  /* opera 11.10+ */
+  background: -o-radial-gradient(
+    circle at 4% 26%,
+    rgba(0, 40, 83, 1) 0%,
+    rgba(4, 12, 24, 1) 100%
+  );
 
-    /* ie 10+ */
-    background: -ms-radial-gradient(circle at 4% 26%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+  /* ie 10+ */
+  background: -ms-radial-gradient(
+    circle at 4% 26%,
+    rgba(0, 40, 83, 1) 0%,
+    rgba(4, 12, 24, 1) 100%
+  );
 
-    /* global 92%+ browsers support */
-    background: radial-gradient(circle at 4% 26%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+  /* global 92%+ browsers support */
+  background: radial-gradient(
+    circle at 4% 26%,
+    rgba(0, 40, 83, 1) 0%,
+    rgba(4, 12, 24, 1) 100%
+  );
 }
 
-.txt_gradient-clr{
-    background: var(--grt-text);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.txt_gradient-clr {
+  background: var(--grt-text);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sect_margin {
+  margin: 4rem 6rem;
+}
+
+.sec_padding {
+  padding: 4rem 6rem;
+}
+.scale-up-center {
+  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
+    both;
+  animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@media screen and (max-width: 700px) {
+    .sec_padding{
+        padding: 4rem;
+    }
+    .sect_margin{
+        margin: 4rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .sec_padding{
+        padding: 4rem 2rem;
+    }
+    .sect_margin{
+        margin: 4rem 2rem;
+    }
 }
