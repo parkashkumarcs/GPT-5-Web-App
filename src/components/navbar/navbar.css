@@ -1,0 +1,25 @@
+.gpt5__navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 6rem;
+}
+.gpt5__navbar_links{
+
+}
+.gpt5_logo-container{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.gpt5_logo-container img{
+    width: 50px;
+    height: auto;
+    /* border: .1rem solid red; */
+}
+.gpt5_logo-container span{
+    font-size: 2rem;
+    margin-left: 1rem;
+}
