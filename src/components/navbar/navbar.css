@@ -29,7 +29,14 @@
     display: flex;
     flex-direction: row;
 }
-.gpt5__links-container p{
+.gpt5__sign-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.gpt5__links-container p,
+.gpt5__sign-container p,
+.gpt5__menu-links_containe p{
     color: #fff;
     font-family: var(--f-family);
     font-weight: 500;
@@ -38,4 +45,82 @@
     text-transform: capitalize;
     margin: 0 1rem;
     cursor: pointer;
+}
+
+.gpt5__sign-container button,
+.gpt5__menu-sign_container button{
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background: #FF4820;
+    font-family: var(--f-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: .1rem;
+    border: 0;
+    outline: none;
+    cursor: pointer;    
+}
+.gpt5__navbar-menu{
+    margin-left: 1rem;
+    display: none;
+    position: relative;
+}
+.gpt5__navbar-menu svg{
+    cursor: pointer;
+}
+.gpt5__menu-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: end;
+    background: var(--footer-clr);
+    padding: 2rem;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    margin-top: 1rem;
+    min-width: 210px;
+    border-radius: 5px;
+    box-shadow: 0 0 5 rgb(0,0,0,0.2);
+}
+.gpt5__menu-container p{
+    margin: 1rem 0;
+}
+.gpt5__menu-sign_container{
+    display: none;
+}
+
+@media screen and (max-width: 1050px) {
+    .gpt5__links-container{
+        display: none;
+    }
+    
+    .gpt5__navbar-menu{
+        display: flex;
+    }
+    
+}
+@media screen and (max-width: 700px) {
+    .gpt5__navbar{
+        padding: 2rem 4rem;
+    }
+    
+}
+
+@media screen and (max-width: 550px) {
+    .gpt5__navbar{
+        padding: 2rem;
+    }
+    .gpt5__sign-container{
+        display: none;
+    }
+    .gpt5__menu-container{
+        top: 20px;
+    }
+    .gpt5__menu-sign_container{
+        display: block;
+    }
+    
 }
