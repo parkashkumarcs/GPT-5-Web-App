@@ -5,21 +5,37 @@
     padding: 1rem 6rem;
 }
 .gpt5__navbar_links{
-
-}
-.gpt5_logo-container{
     flex: 1;
     display: flex;
     justify-content: flex-start;
     align-items: center;
 
 }
-.gpt5_logo-container img{
+.gpt5__logo-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.gpt5__logo-container img{
     width: 50px;
     height: auto;
     /* border: .1rem solid red; */
 }
-.gpt5_logo-container span{
+.gpt5__logo-container span{
     font-size: 2rem;
     margin-left: 1rem;
+}
+.gpt5__links-container{
+    display: flex;
+    flex-direction: row;
+}
+.gpt5__links-container p{
+    color: #fff;
+    font-family: var(--f-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin: 0 1rem;
+    cursor: pointer;
 }

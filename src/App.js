@@ -7,15 +7,15 @@ const App = () => {
         <div className='App'>
             <div className='bg__gradient-clr'>
                 <Navbar />
-                <Header />
+                {/* <Header /> */}
             </div>
-            <Brand />
+            {/* <Brand />
             <AboutGPT5 />
             <Features />
             <Possibility />
             <CTA />
             <Blog />
-            <Footer />
+            <Footer /> */}
 
         </div>
     )
