@@ -7,7 +7,7 @@ const App = () => {
         <div className='App'>
             <div className='bg__gradient-clr'>
                 <Navbar />
-                {/* <Header /> */}
+                <Header />
             </div>
             {/* <Brand />
             <AboutGPT5 />
