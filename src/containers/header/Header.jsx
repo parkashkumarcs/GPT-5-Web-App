@@ -1,6 +1,7 @@
 import React from "react";
 import "./header.css";
-import users from '../../assets/users.png'
+import users from "../../assets/users.png";
+import botImage from "../../assets/bot.png";
 const Header = () => {
   return (
     <div className="gpt5__header sec__padding" id="home">
@@ -24,8 +25,14 @@ const Header = () => {
         </div>
         <div className="gpt5__header-users">
           <img src={users}></img>
+          <p>
+          100 millions plus people requested access a visit in last 24 hours
+        </p>
         </div>
       </div>
+      <div className="gpt5__header-image">
+            <img src={botImage}></img>
+        </div>
     </div>
   );
 };
