@@ -2,7 +2,7 @@ import React from "react";
 import "./aboutGPT5.css";
 import { Feature } from "../../components/components";
 
-const title1 = "What is GPT5";
+const title1 = "What is GPT5?";
 const title2 = "Chatbots";
 const title3 = "Knowledgebase";
 const title4 = "Education";

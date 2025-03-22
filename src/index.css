@@ -6,8 +6,8 @@
   --grt-bar: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%);
 
   --bg-color: #040c18;
-  --footer-clr: #031b34;
-  --blog-clr: #042c54;
+  --footer-clr: rgb(3, 27, 53);
+  --blog-clr: rgb(4, 44, 84);
   --text-clr: #c7daec;
   --subtext-clr: #ff8a71;
 }
