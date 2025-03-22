@@ -1,4 +1,6 @@
 .gpt5__about-container {
+    display: flex;
+    flex-direction: column;
   background: radial-gradient(
     circle at 4% 26%,
     rgba(0, 40, 83, 1) 0%,
@@ -30,6 +32,12 @@
 .gpt5__about-feature{
     display: flex;
 }
+.gpt5__about-feature .gpt5__features-container{
+    margin: 0;
+}
+.gpt5__about-feature .gpt5__feature-description{
+    max-width: 700px;
+}
 .gpt5__about-heading{
     display: flex;
     flex-direction: row;
@@ -51,4 +59,11 @@
     color: var(--subtext-clr);
     font-family: var(--f-family);
     cursor: pointer;
+}
+.gpt5__feature-container{
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    margin-top: 2rem;
+    z-index: 1;
 }

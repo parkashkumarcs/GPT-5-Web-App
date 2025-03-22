@@ -1,0 +1,15 @@
+.gpt5__features-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 1rem;
+} 
+.gpt5__feature-title{
+    flex: 1;
+    max-width: 280px;
+}
+.gpt5__feature-description{
+    line-height: 25px;
+}
