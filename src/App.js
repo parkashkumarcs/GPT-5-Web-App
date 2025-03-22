@@ -9,7 +9,8 @@ const App = () => {
                 <Navbar />
                 <Header />
             </div>
-            {/* <Brand />
+            <Brand />
+            {/* 
             <AboutGPT5 />
             <Features />
             <Possibility />
