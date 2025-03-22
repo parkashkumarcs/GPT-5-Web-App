@@ -1,0 +1,54 @@
+.gpt5__about-container {
+  background: radial-gradient(
+    circle at 4% 26%,
+    rgba(0, 40, 83, 1) 0%,
+    rgba(4, 12, 24, 1) 100%
+  );
+
+  position: relative;
+  padding: 2rem;
+  background: var(--blog-clr);
+  overflow: hidden;
+}
+
+.gpt5__about-container::after {
+  content: "";
+  position: absolute;
+  bottom: -50px;
+  right: -50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(17, 128, 255, 0.39) 0%,
+    rgb(12, 125, 255) 40%
+  );
+  filter: blur(30px);
+  pointer-events: none;
+}
+.gpt5__about-feature{
+    display: flex;
+}
+.gpt5__about-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 4rem 0 2rem;
+    align-items: center;
+}
+.gpt5__about-heading h1{
+    font-size: 34px;
+    line-height: 45px;
+    font-weight: bolder;
+    max-width: 510px;
+    font-family: var(--f-family);
+}
+.gpt5__about-heading p{
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
+    color: var(--subtext-clr);
+    font-family: var(--f-family);
+    cursor: pointer;
+}

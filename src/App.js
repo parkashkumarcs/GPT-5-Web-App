@@ -10,8 +10,9 @@ const App = () => {
                 <Header />
             </div>
             <Brand />
-            {/* 
+            
             <AboutGPT5 />
+            {/* 
             <Features />
             <Possibility />
             <CTA />
