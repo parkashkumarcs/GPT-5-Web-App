@@ -4,11 +4,12 @@
 }
 .brand__Image-container{
     width: 370px;
-    height: 370px;
+    /* height: 370px; */
     /* background-color: rgb(19, 22, 26); */
     margin-bottom: 1rem;
 }
 .brand__Image-container img{
     width: 100%;
+    margin-bottom: 50px;
     /* height: 100%; */
 }

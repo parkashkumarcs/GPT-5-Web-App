@@ -7,9 +7,13 @@ import {
   slack,
   vivo,
   dropbox,
-  chanel,
   apple,
-  atlassian
+  atlassian,
+  youtube,
+  discord,
+  facebook, 
+  gemini,
+  deepseek
 } from './importImages'
 
 
@@ -26,22 +30,31 @@ const Brand = () => {
         <img src= {apple}></img>
       </div>
       <div className='brand__Image-container'>
+        <img src= {shopify}></img>
+      </div>
+      <div className='brand__Image-container'>
         <img src= {slack}></img>
       </div>
       <div className='brand__Image-container'>
         <img src= {vivo}></img>
       </div>
       <div className='brand__Image-container'>
-        <img src= {dropbox}></img>
+        <img src= {youtube}></img>
       </div>
       <div className='brand__Image-container'>
-        <img src= {chanel}></img>
+        <img src= {discord}></img>
       </div>
       <div className='brand__Image-container'>
-        <img src= {shopify}></img>
+        <img src= {facebook}></img>
+      </div>
+      <div className='brand__Image-container'>
+        <img src= {deepseek}></img>
       </div>
       <div className='brand__Image-container'>
         <img src= {atlassian}></img>
+      </div>
+      <div className='brand__Image-container'>
+        <img src= {gemini}></img>
       </div>
     </div>
   )
