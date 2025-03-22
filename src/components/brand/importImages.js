@@ -1,4 +1,4 @@
-import google from '../../assets/google.png';
+import amazon from '../../assets/amazon.png';
 import playstore from '../../assets/playstore.png';
 import shopify from '../../assets/shopify.png';
 import slack from '../../assets/slack.png';
@@ -13,7 +13,7 @@ import gemini from '../../assets/gemini.png';
 import deepseek from '../../assets/deepseek.png';
 
 export {
-    google,
+    amazon,
     playstore,
     shopify,
     slack,

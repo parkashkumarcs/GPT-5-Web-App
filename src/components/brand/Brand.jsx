@@ -1,7 +1,7 @@
 import React from 'react';
 import './brand.css';
 import {
-  google,
+  amazon,
   playstore,
   shopify,
   slack,
@@ -21,7 +21,7 @@ const Brand = () => {
   return (
     <div className='brand__Section-container sec__padding'>
       <div className='brand__Image-container'>
-        <img src= {google}></img>
+        <img src= {amazon}></img>
       </div>
       <div className='brand__Image-container'>
         <img src= { playstore}></img>
