@@ -23,19 +23,14 @@ const Features = () => {
   ]
   return (
     <div className="gpt5__Features sec__padding" id="features">
-      <div className="video-container">
-          <video muted loop playsInline autoPlay className="video-bg">
-            <source src={neuran}></source>
-          </video>
-        </div>
       <div className="gpt5__features-heading">
         <h1 className="txt__gradient-clr txt-case">
           The feature is now and you just need to realize it. Step into future
           today & make it Happen.
         </h1>
-        <p>Request Fairly Access To Get Started </p>
-        <div className="relative w-full h-screen overflow-hidden">
-          <video muted loop playsInline autoPlay className="absolute top-0 left-0 w-full h-full object-cover">
+        <p className="sub__heading-text">Request Fairly Access To Get Started </p>
+        <div className="video-container">
+          <video muted loop playsInline autoPlay className="">
             <source src={neuran}></source>
           </video>
         </div>

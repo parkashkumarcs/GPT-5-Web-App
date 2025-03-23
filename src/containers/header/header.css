@@ -22,7 +22,7 @@
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    line-height: 27px;
+    line-height: 2rem;
     color: var(--text-clr);
     margin-top: 1.5rem;
 }

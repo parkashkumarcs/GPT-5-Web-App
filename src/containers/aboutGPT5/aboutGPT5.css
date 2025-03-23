@@ -39,10 +39,12 @@
     font-size: 34px;
     font-weight: bold;
     color: #ffffff;
+    font-family: var(--f-family);
 }
 
 .gpt5__about-heading p {
-    font-size: 28px;
+    font-family: var(--f-family);
+    font-size: 20px;
     font-weight: 600;
     color: var(--subtext-clr);
     text-decoration: none;
@@ -50,6 +52,7 @@
     transition: color 0.3s ease-in-out;
     cursor: pointer;
     margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 
 /* Underline Animation */
@@ -71,7 +74,7 @@
 }
 
 .gpt5__about-heading p:hover::after {
-    width: 40%;
+    width: 25%;
 }
 
 /* Feature Container */

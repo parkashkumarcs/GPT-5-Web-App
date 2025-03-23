@@ -2,11 +2,9 @@
     display: flex;    
 }
 
-
 .gpt5__features-data{
     width: 100%;
-    margin: 0rem 1rem;
-
+    margin: 0rem 2rem;
 }
 .gpt5__features-data h1{
     font-family: var(--f-family);
@@ -17,6 +15,7 @@
     margin-bottom: 2rem;
     font-family: var(--f-family);
     line-height: 2rem;
+    font-size: 1.2rem;
 }
 .text__bar{
     width: 100%;
@@ -27,26 +26,103 @@
     /* margin-top: 1rem; */
 }
 .gpt5__features-heading{
-
+    width: 100%;
 }
 .gpt5__features-heading p{
     margin-top: 2rem;
+    margin-bottom: 3rem;
 }
 .txt-case{
     text-transform: capitalize;
+    font-size: 7vh;
+    font-family: var(--f-family);
+}
+.sub__heading-text{
+    font-size: 4vh;
+    font-family: var(--f-family);
+}
+.video-container {
+    width: 100%;
+    box-shadow: 0px 0px 5px 5px rgb(14, 34, 46);
+    transition: 0.3s ease-in;
+}
+.video-container video{
+    width: 100%;
+}  
+.video-container:hover{
+    scale: 1.02;
+    transition: 0.3s ease-out;
 }
 
-.video-container {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-  }
-  .video-bg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Ensures the video covers the entire screen */
-  }
+@media screen and (max-width: 1200px) { 
+    .gpt5__features-data h1{
+        font-size: 3vh;
+    }
+    .gpt5__features-data p{
+        font-size: 2vh;
+    }    
+    .video-container{
+        margin-bottom: 3rem;
+    }
+    .txt-case{
+        font-size: 2rem;
+    }
+    .sub__heading-text{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .gpt5__Features{
+        flex: 1;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .gpt5__features-data h1{
+        font-size: 3.3vh;
+        text-align: center;
+    }
+    .gpt5__features-data p{
+        text-align: center;
+        font-size: 2vh;
+    }    
+    .video-container{
+        margin-bottom: 3rem;
+    }
+    .txt-case{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .sub__heading-text{
+        text-align: center;
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .gpt5__Features{
+        flex: 1;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .gpt5__features-data h1{
+        font-size: 3vh;
+        text-align: center;
+    }
+    .gpt5__features-data p{
+        text-align: center;
+    }    
+    .video-container{
+        margin-bottom: 3rem;
+    }
+    .txt-case{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .sub__heading-text{
+        text-align: center;
+        font-size: 1rem;
+    }
+}

@@ -5,6 +5,7 @@
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.1);
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border-left: .2rem solid rgb(0, 119, 255);
 }
 
 .gpt5__features-container:hover {
@@ -23,6 +24,7 @@
     color: rgba(255, 255, 255, 0.7);
     line-height: 25px;
     font-family: var(--f-family);
+    line-height: 2rem;
 }
 .gpt5__feature-title div{
     width: 38px;
