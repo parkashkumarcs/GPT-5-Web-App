@@ -1,0 +1,52 @@
+.gpt5__Features{
+    display: flex;    
+}
+
+
+.gpt5__features-data{
+    width: 100%;
+    margin: 0rem 1rem;
+
+}
+.gpt5__features-data h1{
+    font-family: var(--f-family);
+    text-transform: capitalize;
+    font-size: 5vh;
+}
+.gpt5__features-data p{
+    margin-bottom: 2rem;
+    font-family: var(--f-family);
+    line-height: 2rem;
+}
+.text__bar{
+    width: 100%;
+    height: 2px;
+    background: var(--grt-bar);
+    box-shadow: 0 4px 4px (0, 0, 0, 0, 0.25);
+    margin-bottom: 0.25rem;
+    /* margin-top: 1rem; */
+}
+.gpt5__features-heading{
+
+}
+.gpt5__features-heading p{
+    margin-top: 2rem;
+}
+.txt-case{
+    text-transform: capitalize;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .video-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the video covers the entire screen */
+  }
