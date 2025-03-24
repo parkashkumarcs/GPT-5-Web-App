@@ -20,8 +20,8 @@ const App = () => {
             <CTA />
             
             <Blog />
-            {/*
-            <Footer /> */}
+          
+            <Footer />
 
         </div>
     )

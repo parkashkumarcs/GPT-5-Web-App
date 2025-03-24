@@ -21,8 +21,8 @@
     font-family: var(--f-family);
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
-    line-height: 2rem;
+    font-size: 20px;
+    line-height: 2.1rem;
     color: var(--text-clr);
     margin-top: 1.5rem;
 }
@@ -60,11 +60,16 @@
     font-size: 20px;
     line-height: 27px;
     border: none;
-    border-top-right-radius: .1rem;
-    border-bottom-right-radius: .1rem;
+    border-top-right-radius: .2rem;
+    border-bottom-right-radius: .2rem;
     padding: 0 1rem;
     outline: none;
     cursor: pointer;
+    transition: 0.6s;
+}
+.gpt5__header-input button:hover{
+    background: transparent;
+    border-right: .1rem solid white;
 }
 .gpt5__header-users{
     display: flex; 

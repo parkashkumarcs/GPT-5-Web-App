@@ -46,6 +46,13 @@
     margin: 0 1rem;
     cursor: pointer;
 }
+.gpt5__sign-container p:hover{
+    color: #FF4820;
+}
+
+.gpt5__links-container p:hover{
+    color: #FF4820;
+}
 
 .gpt5__sign-container button,
 .gpt5__menu-sign_container button{
@@ -56,10 +63,13 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 25px;
-    border-radius: .1rem;
+    border-radius: .3rem;
     border: 0;
     outline: none;
     cursor: pointer;    
+}
+.gpt5__sign-container button:hover{
+    background:#ff4920be;
 }
 .gpt5__navbar-menu{
     margin-left: 1rem;
