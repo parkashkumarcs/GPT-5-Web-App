@@ -22,3 +22,22 @@
     justify-content: flex-end;
     align-items: flex-start;
 }
+.gpt5__possibility-content h3{
+    font-family: var(--f-family);
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #71E5FF;
+    line-height: 30px;
+}
+.gpt5__possibility-content h3:last-child{
+    color: #ff8a71;
+}
+.gpt5__possibility-content h1{
+    font-family: var(--f-family);
+    font-weight: 800;
+}
+.gpt5__possibility-content p{
+    font-family: var(--f-family);
+    line-height: 2rem;
+    font-size: 1rem;
+}
