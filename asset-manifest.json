@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/parkashkumarcs/GPT-5-Web-App.git/static/css/main.4f199b05.css",
+    "main.js": "/parkashkumarcs/GPT-5-Web-App.git/static/js/main.6d850bf5.js",
+    "static/media/neuran.mp4": "/parkashkumarcs/GPT-5-Web-App.git/static/media/neuran.d9ef5769f628ce269729.mp4",
+    "static/media/warning.jpg": "/parkashkumarcs/GPT-5-Web-App.git/static/media/warning.100f0cdb0acbdfa3feaf.jpg",
+    "static/media/neuranBG.png": "/parkashkumarcs/GPT-5-Web-App.git/static/media/neuranBG.2c342da5dafe59b881b4.png",
+    "static/media/bot.png": "/parkashkumarcs/GPT-5-Web-App.git/static/media/bot.5f6f28752dc50950d5ed.png",
+    "static/media/ai.jpg": "/parkashkumarcs/GPT-5-Web-App.git/static/media/ai.13e382ac0974ff6919e1.jpg",
+    "static/media/programming.jpg": "/parkashkumarcs/GPT-5-Web-App.git/static/media/programming.605195ffe8d0e70d4ea0.jpg",
+    "static/media/lock.jpg": "/parkashkumarcs/GPT-5-Web-App.git/static/media/lock.f41f657e92f750cfc408.jpg",
+    "static/media/coding.jpg": "/parkashkumarcs/GPT-5-Web-App.git/static/media/coding.1b37a0d3878492ffa1ac.jpg",
+    "static/media/users.png": "/parkashkumarcs/GPT-5-Web-App.git/static/media/users.eb17e30830f6e6276715.png",
+    "static/media/playstore.png": "/parkashkumarcs/GPT-5-Web-App.git/static/media/playstore.02956a9c32551ad5fc39.png",
+    "static/media/deepseek.png": "/parkashkumarcs/GPT-5-Web-App.git/static/media/deepseek.1b095f65503f0eddef8b.png",
+    "static/media/dropbox.png": "/parkashkumarcs/GPT-5-Web-App.git/static/media/dropbox.192c7b5ba8a0f8fdd0d0.png",
+    "static/media/gemini.png": "/parkashkumarcs/GPT-5-Web-App.git/static/media/gemini.d9addd3cc94274fb7eb7.png",
+    "static/media/youtube.png": "/parkashkumarcs/GPT-5-Web-App.git/static/media/youtube.535483859581cc9b52cc.png",
+    "static/media/apple.png": "/parkashkumarcs/GPT-5-Web-App.git/static/media/apple.e97fc547113de1cbb7fe.png",
+    "static/media/atlassian.png": "/parkashkumarcs/GPT-5-Web-App.git/static/media/atlassian.5ea244d6e083a5778252.png",
+    "static/media/amazon.png": "/parkashkumarcs/GPT-5-Web-App.git/static/media/amazon.2523321d3f737219a644.png",
+    "static/media/vivo.png": "/parkashkumarcs/GPT-5-Web-App.git/static/media/vivo.9a79e99b2acc27f3d42d.png",
+    "static/media/shopify.png": "/parkashkumarcs/GPT-5-Web-App.git/static/media/shopify.db0d2374f950c1d78877.png",
+    "static/media/facebook.png": "/parkashkumarcs/GPT-5-Web-App.git/static/media/facebook.6d675f08ee494db58c2d.png",
+    "static/media/slack.png": "/parkashkumarcs/GPT-5-Web-App.git/static/media/slack.cb959ec9f81d1d4066bf.png",
+    "static/media/discord.png": "/parkashkumarcs/GPT-5-Web-App.git/static/media/discord.4ee4917a19fdc6988fc9.png",
+    "index.html": "/parkashkumarcs/GPT-5-Web-App.git/index.html",
+    "main.4f199b05.css.map": "/parkashkumarcs/GPT-5-Web-App.git/static/css/main.4f199b05.css.map",
+    "main.6d850bf5.js.map": "/parkashkumarcs/GPT-5-Web-App.git/static/js/main.6d850bf5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4f199b05.css",
+    "static/js/main.6d850bf5.js"
+  ]
+}
