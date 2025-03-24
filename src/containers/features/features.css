@@ -1,10 +1,16 @@
 .gpt5__Features{
-    display: flex;    
+    display: flex; 
+    border-top: .1rem solid rgba(0, 132, 255, 0.342);
+    border-bottom: .1rem solid rgba(0, 132, 255, 0.342);
 }
-
+*{
+    /* border: .1rem solid red; */
+}
 .gpt5__features-data{
     width: 100%;
-    margin: 0rem 2rem;
+    margin: 0rem 0rem 0rem 2rem;
+    border-left: .1rem solid rgba(0, 132, 255, 0.342);
+    padding-left: 2rem;
 }
 .gpt5__features-data h1{
     font-family: var(--f-family);
